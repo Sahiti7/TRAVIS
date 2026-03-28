@@ -131,7 +131,7 @@ Use `/query` endpoint:
 
 ## 🏗️ System Architecture
 
-![TRAVIS Architecture](backend/assets/architecture.png)
+![TRAVIS Architecture](backend/assets/architecture.jpg)
 
 ### 🔍 Explanation
 - Customer sends query via text or voice
