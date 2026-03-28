@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Agent Dashboard - VISTA</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f7fa;
+      padding: 40px;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #1a73e8;
+    }
+
+    .box {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .box h3 {
+      margin-top: 0;
+      color: #0077cc;
+    }
+
+    #alert-box {
+      background: #ffcccc;
+      border: 1px solid red;
+      padding: 15px;
+      margin-top: 20px;
+      display: none;
+      font-weight: bold;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    #send-btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    #send-btn:hover {
+      background-color: #005fa3;
+    }
+  </style>
+</head>
+<body>
+  <h1>🧑‍💼 VISTA Agent Dashboard</h1>
+
+  <div class="box">
+    <h3>📩 Customer Query</h3>
+    <p id="customer-query">Waiting for query...</p>
+  </div>
+
+  <div class="box">
+    <h3>🤖 Model Response</h3>
+    <p id="model-response">Model response will appear here.</p>
+    <button id="send-btn">Send to Customer (Alt+Tab or Click)</button>
+  </div>
+
+  <div class="box">
+    <h3>🗣️ Agent Reply (Voice)</h3>
+    <p id="agent-reply">Press V to speak if customer is not satisfied.</p>
+  </div>
+
+  <div id="alert-box">⚠️ Customer is NOT satisfied. Press V to speak a reply.</div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+.query-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #bcd4f8, #dbe6ff);
+}
+
+.query-box {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  width: 480px;
+  text-align: center;
+}
+
+.query-box h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.query-input-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.query-input-group input {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+
+
+.send-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0057e7;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.send-button:hover {
+  background-color: #003cb3;
+}
+.query-instruction {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+.feedback-section {
+  margin-top: 25px;
+}
+
+.feedback-question {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.feedback-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feedback-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.yes-btn {
+  background: linear-gradient(to right, #a0c4ff, #78aaff);
+}
+.yes-btn:hover{
+  background-color: #2e2ecf;
+
+}
+
+.no-btn {
+  background: linear-gradient(to right, #6c92f4, #446be3);
+}
+.no-btn:hover{
+  background-color: #003cb3;
+}
+
+.feedback-btn:hover {
+  opacity: 0.9;
+}
+.query-response {
+  margin-top: 20px;
+  font-weight: 500;
+  color: #333;
+  background: #f2f2f2;
+  padding: 10px;
+  border-radius: 8px;
+}

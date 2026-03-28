@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Agent Login</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background: #f0f0f0;
+      text-align: center;
+      padding: 100px;
+    }
+
+    h2 {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 16px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h2>👩‍💼 Welcome Agent</h2>
+  <p>Press <strong>SPACEBAR</strong> to open the Agent Dashboard</p>
+
+  <script>
+    document.addEventListener("keydown", function (e) {
+      if (e.code === "Space") {
+        window.location.href = "chat.html";
+      }
+    });
+  </script>
+</body>
+</html>

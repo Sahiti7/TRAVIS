@@ -1,0 +1,77 @@
+.account-details-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #a0c4ff, #d0e1ff);
+}
+
+.account-details-page {
+  max-width: 400px;
+  width: 100%;
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.account-details-page h2 {
+  margin-bottom: 25px;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005fa3;
+}
+
+.account-details-page .icon {
+  width: 28px;
+  margin-right: 10px;
+}
+
+.account-details-page input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.account-details-page button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.account-details-page button:hover {
+  background-color: #005fa3;
+}
+.account-details-page input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.account-details-page input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+/* When input is not empty (handled via :not(:placeholder-shown)) */
+.account-details-page input:not(:placeholder-shown) {
+  background-color: #e6f0ff; /* Light blue */
+}

@@ -1,0 +1,78 @@
+body {
+  font-family: Segoe UI, sans-serif;
+  padding: 20px;
+  background: #f5f5f5;
+}
+
+.section {
+  margin-bottom: 15px;
+}
+
+#queryBox, #responseBox {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: none;
+  font-size: 1rem;
+  background: #f9f9f9;
+  margin-bottom: 10px;
+}
+
+#sendToCustomerBtn {
+  padding: 8px 16px;
+  font-size: 1rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#sendToCustomerBtn:hover {
+  background-color: #0056b3;
+}
+
+#logBox {
+  background: white;
+  border: 1px solid #ccc;
+  height: 250px;
+  overflow-y: auto;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.log-entry {
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.log-entry.customer {
+  background-color: #d0f0ff;
+}
+
+.log-entry.ai {
+  background-color: #e0e0e0;
+}
+
+.log-entry.agent {
+  background-color: #f0ffe0;
+}
+
+.log-entry.alert {
+  background-color: #ffe0e0;
+  border: 2px solid red;
+  color: #990000;
+  font-weight: bold;
+}
+
+.log-entry.system {
+  background-color: #f9f9cc;
+  font-style: italic;
+}
+
+.log-entry.error {
+  color: red;
+}

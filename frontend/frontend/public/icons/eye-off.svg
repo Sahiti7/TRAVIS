@@ -1,0 +1,5 @@
+<!-- public/icons/eye-off.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+    d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.269-2.943-9.543-7a10.057 10.057 0 012.017-3.338M6.223 6.223A9.964 9.964 0 0112 5c4.478 0 8.269 2.943 9.543 7a10.054 10.054 0 01-4.293 5.147M3 3l18 18" />
+</svg>
